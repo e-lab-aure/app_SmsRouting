@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  La configuration contient un numero de destination et un journal d'expediteurs.
+  Ces donnees ne doivent ni partir en sauvegarde cloud ni etre transferees vers
+  un autre appareil : l'application se reconfigure en quelques secondes.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="." />
+    </device-transfer>
+</data-extraction-rules>

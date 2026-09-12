@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reroutage SMS</string>
+    <string name="subtitle">Transfere automatiquement les SMS recus des contacts d\'un groupe vers un numero unique.</string>
+
+    <string name="hint_destination">Numero de destination</string>
+    <string name="helper_destination">Numero qui recevra les SMS reroutes. L\'icone a droite permet de le choisir dans les contacts.</string>
+    <string name="action_pick_contact">Choisir dans les contacts</string>
+    <string name="error_contact_no_number">Aucun numero associe a ce contact.</string>
+    <string name="error_contacts_app_unavailable">Application Contacts indisponible.</string>
+    <string name="hint_group">Groupe de contacts surveille</string>
+    <string name="helper_group">Groupe dont les messages seront reroutes.</string>
+    <string name="default_group">Reroutage</string>
+    <string name="group_watching_none">Aucun expediteur exploitable dans ce groupe.</string>
+    <string name="group_permission_needed">Accordez l\'acces aux contacts pour choisir un groupe.</string>
+    <string name="group_none_available">Aucun groupe de contacts trouve sur cet appareil.</string>
+
+    <string name="switch_include_sender">Indiquer l\'expediteur d\'origine</string>
+    <string name="switch_enabled">Reroutage actif</string>
+
+    <string name="action_save">Enregistrer</string>
+    <string name="action_permissions">Accorder les permissions</string>
+    <string name="action_battery">Exclure des optimisations de batterie</string>
+    <string name="action_clear_log">Effacer le journal</string>
+
+    <string name="label_log">Journal</string>
+    <string name="log_empty">Aucune activite enregistree.</string>
+
+    <string name="status_ready">Permissions accordees. Le reroutage peut fonctionner.</string>
+    <string name="status_missing">Permissions manquantes : %1$s</string>
+    <string name="status_battery_warning">Pensez a exclure l\'application des optimisations de batterie.</string>
+
+    <string name="permission_sms_receive">reception de SMS</string>
+    <string name="permission_sms_send">envoi de SMS</string>
+    <string name="permission_contacts">contacts</string>
+    <string name="permission_notifications">notifications</string>
+
+    <string name="error_destination_required">Saisissez un numero de destination.</string>
+    <string name="error_destination_invalid">Numero de destination invalide.</string>
+    <string name="error_permissions_required">Accordez les permissions avant d\'activer le reroutage.</string>
+    <string name="error_settings_unavailable">Ecran de reglages indisponible sur cet appareil.</string>
+
+    <string name="saved">Configuration enregistree.</string>
+
+    <string name="log_send_confirmed">Envoi confirme par l\'operateur (%1$d SMS)</string>
+    <string name="log_send_failed">Echec de l\'envoi : %1$s</string>
+    <string name="log_handed_over">Remis pour envoi depuis %1$s (%2$d SMS)</string>
+    <string name="send_error_no_service">reseau indisponible</string>
+    <string name="send_error_radio_off">radio du telephone coupee</string>
+    <string name="send_error_limit">limite d\'envoi atteinte</string>
+    <string name="send_error_generic">refus de l\'operateur</string>
+    <string name="error_permission_blocked">Permissions refusees. Accordez-les dans les parametres de l\'application.</string>
+
+    <string name="notification_channel_name">Echecs de reroutage</string>
+    <string name="notification_failure_title">Reroutage SMS</string>
+
+    <plurals name="group_watching">
+        <item quantity="one">%1$d expediteur surveille dans ce groupe.</item>
+        <item quantity="other">%1$d expediteurs surveilles dans ce groupe.</item>
+    </plurals>
+</resources>
